@@ -1,1 +1,17 @@
 # ProjetoPilha3
+
+import java.util.Stack;
+
+public class Main {
+    public static void main(String[] args) {
+        Stack<Integer> pilha = new Stack<>();
+
+        pilha.push(100);
+        pilha.push(200);
+        pilha.push(300);
+
+        System.out.println("Topo da pilha: " + pilha.peek());
+        System.out.println("Removendo: " + pilha.pop());
+        System.out.println("Pilha atual: " + pilha);
+    }
+}
